@@ -530,6 +530,7 @@ public class ifrmProfesores extends javax.swing.JInternalFrame {
         ByteArrayOutputStream qr = QRCode.from(valor).to(ImageType.PNG).stream();
         ImageIcon icono = new ImageIcon(qr.toByteArray());
         lblQR.setIcon(icono);
+        //Comenzamos a trabajar colaborativamente!!!!
     }//GEN-LAST:event_btnGenerarQRActionPerformed
 
 
